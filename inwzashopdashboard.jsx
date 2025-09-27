@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import { Clock, Gem, Scroll, DollarSign, Plug, Server, Zap, AlertTriangle, MessageSquare } from 'lucide-react';
 
-// URL ของ WebSocket Server ที่ Deploy บน Render
-// *** กรุณาเปลี่ยน URL นี้เป็น URL ที่คุณได้รับจากการ Deploy Server.js ***
+// URL WebSocket ServerDeploy  Render
+// *** URL URL  Deploy Server.js ***
 const REALTIME_API_ENDPOINT = "wss://inwzashop-farm-dashboard-backend-1.onrender.com/ws
-// ข้อมูลจำลองสำหรับแสดงผลเมื่อยังไม่มีการเชื่อมต่อ หรือยังไม่มีข้อมูล
+
 const initialData = {
     statistics: {
         gemsTotal: 0,
