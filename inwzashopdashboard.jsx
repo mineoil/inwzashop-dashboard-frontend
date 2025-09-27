@@ -3,7 +3,7 @@ import { Clock, Gem, Scroll, DollarSign, Plug, Server, Zap, AlertTriangle, Messa
 
 // URL WebSocket ServerDeploy  Render
 // *** URL URL  Deploy Server.js ***
-const REALTIME_API_ENDPOINT = "wss://inwzashop-farm-dashboard-backend-1.onrender.com/ws;
+const REALTIME_API_ENDPOINT = "wss://inwzashop-farm-dashboard-backend-1.onrender.com/ws"
     //
 
 const initialData = {
